@@ -237,7 +237,7 @@ function changeTopic() {
     badGuysSentences = adjustGysSentences(parseTextFile("configs/" + keyword + "_hlasky_zli_chlapci.txt"));
     badGuys = parseTextFile("configs/" + keyword + "_zli_chlapci.txt");
     swearWords = ['JANEVIEMUŠ', 'IDE KARTA', 'KONŠTANTA', 'SKROMNE', 'HRDÍ SLAVIANI', 'KOKOTI', 'PUTINA NA TO', 
-                  'CUKRÍČEK', 'SVETIELKA', 'TRAGÉDI', 'PIČI', 'ZOMRI'];
+                  'CUKRÍČEK', 'SVETIELKA', 'TRAGÉDI', 'PIČI', 'ZOMRI', 'DEKEL ODJEBANY'];
     swearWordsLvl2 = ['VŠETCI ZOMRITE', 'HMOŽDINY NA SATURN', 'ŽALOBA NA TO', 'KOKÓÓÓTI', 'TRAGICKÍ KOKOTI', 
                      'PIIIČAA', 'ZAJEBEM PLYN'];
   }
