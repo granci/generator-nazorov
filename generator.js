@@ -225,9 +225,9 @@ function changeTopic() {
     document.getElementById('topic_all').checked = true;
     disable_topic = true;
     swearWords = ['ROXORY', 'AROGANTNÍ HAJZLI', 'POJDU DOLE', 'BOJLER', 'HAJZLI', 'KOKOTI', 'HEHEHÉ', 
-                  'JEBEM BOJLER', 'FAŠISTI', 'KURVY', 'PIČA', 'SPIATOČNÍCI'];
+                  'JEBEM BOJLER', 'FAŠISTI', 'KURVY', 'PIČA', 'SLOBODA SLOVA'];
     swearWordsLvl2 = ['KRV, MOZGY, ŠŤANKY, SRAČKY', 'FAŠISTICKÉ SVINE', 'HEHEHÉHÉÉÉ', 'KOKÓÓÓTI', 'UJEBEM BOJLER AJ S HMOŽDINAMI', 
-                     'PIIIČAA', 'GENOCÍDA NÁRODA'];
+                     'PIIIČAA', 'GENOCÍDA NÁRODA', 'ROXOROM MEDZI NOHY'];
   }
   else if (role == 4) {
     var keyword = "zomri";
