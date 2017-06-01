@@ -146,7 +146,7 @@ function changeBackground() {
                   "https://cdn.webnoviny.sk/sites/32/2012/10/pochod-spolocne-za-slusny-a-bezpecn.jpg",
                   "https://ipravda.sk/res/2010/05/23/thumbs/73476-gay-pride-bratislava-clanokW.jpg", 
                   "http://panobcan.sk/wp-content/uploads/2015/07/robert-mihaly-provokater.jpg",
-                  "http://i61.tinypic.com/2epivxy.jpg"];
+                  "http://scienceblogs.com/startswithabang/files/2010/06/big-bang.jpg"];
   }
   else if (role == 3) {  // vasky
     var colors = ["(255,36,28)","(229,32,25)","(204,28,22)","(178,25,19)","(153,21,16)","(127,18,14)","(102,14,11)",
