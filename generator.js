@@ -161,8 +161,8 @@ function changeBackground() {
   else if (role == 4) {  // zomri
     var colors = ["(59,89,152)","(75,81,139)","(91,74,126)","(108,66,114)","(124,59,101)","(140,51,88)","(157,44,76)",
                   "(173,37,63)","(189,29,50)","(206,22,38)","(222,14,25)"];
-    var images = ["https://scontent.xx.fbcdn.net/v/t1.0-9/12341294_1114944488517525_6614484182791711045_n.jpg?oh=520171a82baee62b3c153cd173d46854&oe=59AE028B", 
-                  "http://www1.birdz.sk/uc/pl/7/1/718dd9f92db5462d92eb98e67c4e882c.jpg",
+    var images = ["http://www1.birdz.sk/uc/pl/7/1/718dd9f92db5462d92eb98e67c4e882c.jpg",
+                  "https://i.ytimg.com/vi/JgSCjceExVI/hqdefault.jpg",
                   "https://m.smedata.sk/api-media/media/image/fici/3/29/29473/29473_625x.png",
                   "http://zenskyweb.sk/sites/default/files/old/articles/16299/original.jpg", 
                   "https://lh4.googleusercontent.com/-LA3Cpva_5CA/AAAAAAAAAAI/AAAAAAAAAcA/SUGaZDMuge4/photo.jpg",
@@ -286,7 +286,7 @@ function changeTitle() {
     title = "Nahodné Naivné Slniečko";
   }
   else if (role == 3) {
-    title = "Rudolf Vasky - boilerlover";
+    title = "Rudolf Vasky - boilerseeker";
   }
   else if (role == 4) {
     title = "Nahodný Admin Zomri";
