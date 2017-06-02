@@ -71,6 +71,10 @@ h1,h2,h3,h5,h5,h6 {
   margin-left: 0;
 }
 
+label {
+  white-space: nowrap;
+}
+
 hr {
   text-align: center;
   width: 50px;
