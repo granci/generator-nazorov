@@ -13,8 +13,6 @@ function generatePost() {
   var post = getPost(undefined, rage);
   document.getElementById('post').innerHTML = '';
   document.getElementById('post').insertAdjacentHTML('afterbegin', post);
-  /*document.getElementById('footer').style.position = 'relative';*/
-  /*document.getElementById('footer').style.bottom = 0;*/
 }
 
 // monkey patch the formatting function into strings
@@ -201,15 +199,15 @@ function changeBackground() {
   // make the button shaky
   var elem = document.getElementById('postButton');
   elem.className = 'myButton';
-  if (rage === 9) {
+  if (rage === 6 || rage === 7) {
     elem.className = 'shake-little myButton';
-  } 
-  else if (rage === 10) {
+  }
+  else if (rage === 8 || rage === 9) {
     elem.className = 'shake myButton';
   } 
-  //else {
-  //  elem.className = 'myButton';
-  //}
+  else if (rage === 10) {
+    elem.className = 'shake-hard myButton';
+  }
 }
   
 function changeTopic() {
