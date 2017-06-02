@@ -178,23 +178,37 @@ function changeBackground() {
                   "http://i.sme.sk/cdata/2/49/4906652/kotleba.jpg",
                   "https://i.ytimg.com/vi/gJe7fY-yowk/maxresdefault.jpg"];
   }
-  //document.body.style.background = "rgb" + colors[rage];
-  //document.getElementById('xichty').src = images[parseInt(rage/2)];
   
+  // modify background color
   document.getElementById("transparent").style.background = "rgb" + colors[rage];
   document.getElementById("transparent").style.opacity = "0.8";
   document.getElementById("transparent").style.filter  = 'alpha(opacity=80)';
   
-  var element = document.getElementById('image_1'),
-  style = window.getComputedStyle( document.body ),
+  // modify background image
+  //var element = document.getElementById('image_1'),
+  style = window.getComputedStyle(document.body),
   bcg = style.getPropertyValue('background-image');
   if( bcg !== 'none' ) {
     document.body.style.backgroundImage = "url('" + images[parseInt(rage/2)] + "')";
   }
   
+  // modify range background color
   var ranges = document.querySelectorAll("input[type=range]");
   for (i = 0; i < ranges.length; i++) {
     ranges[i].style.background = "rgb" + colors[rage];
+  }
+  
+  // make the button shaky
+  var elem = document.getElementById('postButton');
+  //elem.className = 'shake myButton';
+  if (rage === 9) {
+    elem.className = 'shake-little myButton';
+  } 
+  else if (rage === 10) {
+    elem.className = 'shake myButton';
+  } 
+  else {
+    elem.className = 'myButton';
   }
 }
   
