@@ -200,16 +200,16 @@ function changeBackground() {
   
   // make the button shaky
   var elem = document.getElementById('postButton');
-  //elem.className = 'shake myButton';
+  elem.className = 'myButton';
   if (rage === 9) {
     elem.className = 'shake-little myButton';
   } 
   else if (rage === 10) {
     elem.className = 'shake myButton';
   } 
-  else {
-    elem.className = 'myButton';
-  }
+  //else {
+  //  elem.className = 'myButton';
+  //}
 }
   
 function changeTopic() {
