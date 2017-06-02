@@ -200,13 +200,13 @@ function changeBackground() {
   var elem = document.getElementById('postButton');
   elem.className = 'myButton';
   if (rage === 6 || rage === 7) {
-    elem.className = 'shake-little shake-freeze myButton';
+    elem.className = 'shake-little shake-constant shake-constant--hover myButton';
   }
   else if (rage === 8 || rage === 9) {
-    elem.className = 'shake shake-freeze myButton';
+    elem.className = 'shake shake-constant shake-constant--hover myButton';
   } 
   else if (rage === 10) {
-    elem.className = 'shake-hard shake-freeze myButton';
+    elem.className = 'shake-hard shake-constant shake-constant--hover myButton';
   }
 }
   
