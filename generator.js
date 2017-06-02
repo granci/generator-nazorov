@@ -267,7 +267,8 @@ function changeTopic() {
     var form = document.getElementById("topic_form");
     var elements = form.elements;
     for (var i = 0, len = elements.length; i < len; ++i) {
-        elements[i].readOnly = disable_topic;
+        //elements[i].readOnly = disable_topic;
+        elements[i].disabled = disable_topic;
     }
     other = parseTextFile("configs/" + keyword + "_hlasky.txt")
     if (role == 1 || role == 2) {
