@@ -4,7 +4,7 @@
 		<title>Generátor názorov</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name='viewport' content='width=device-width'>
-		<link rel="stylesheet" href="style.css?v=28" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="style.css?v=29" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
@@ -23,19 +23,19 @@
 				<b>Faktor hnevu: </b><input type="range" min="0" max="10" value="1" id="rageFactor" onchange="changeBackground();"/><br/>
 				<b>Téma: </b>
 				<form id="topic_form" style="display:inline;" onchange="changeTopic();">
-					<input type="radio" name="tema" value="1" id="topic_all" checked> Všetko
-					<input type="radio" name="tema" value="2"> Rómovia
-					<input type="radio" name="tema" value="3"> Migranti
-					<input type="radio" name="tema" value="4"> LGBT
-					<input type="radio" name="tema" value="5"> Konšpirácie
+					<label><input type="radio" name="tema" value="1" id="topic_all" checked> Všetko</label>
+					<label><input type="radio" name="tema" value="2"> Rómovia</label>
+					<label><input type="radio" name="tema" value="3"> Migranti</label>
+					<label><input type="radio" name="tema" value="4"> LGBT</label>
+					<label><input type="radio" name="tema" value="5"> Konšpirácie</label>
 				</form>
 				<br/>
 				<b>Postavička: </b>
 				<form id="role_form" style="display:inline;" onchange="changeRole();">
-					<input type="radio" name="role" value="1" checked> Sloviän
-					<input type="radio" name="role" value="2"> Slniečko
-					<input type="radio" name="role" value="3"> Vasky
-					<input type="radio" name="role" value="4"> Admin Zomri
+					<label><input type="radio" name="role" value="1" checked> Sloviän</label>
+					<label><input type="radio" name="role" value="2"> Slniečko</label>
+					<label><input type="radio" name="role" value="3"> Vasky</label>
+					<label><input type="radio" name="role" value="4"> Admin Zomri</label>
 				</form>
 				<br/><br/>
 				<button type="button" class="myButton" onclick="generatePost();">Generuj názor</button>
