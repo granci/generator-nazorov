@@ -248,7 +248,7 @@ input[type=range]:focus::-ms-fill-upper {
 		width: 100%;
 	}
 	body {
-		/*background-image: none;*/
+		background-image: none;
 		padding: 0 0.5em;
 	}
 }
