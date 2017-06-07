@@ -247,16 +247,20 @@ input[type=range]:focus::-ms-fill-upper {
 	.container {
 		width: 100%;
 	}
-	body {
+	/*body {
 		background-image: none;
 		padding: 0 0.5em;
-	}
+	}*/
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 480px) {
   .bubble-content {
 	   margin-left:0;
 	   width: auto;
 	   max-width:100%;
+	}
+	body {
+		background-image: none;
+		padding: 0 0.5em;
 	}
 }
