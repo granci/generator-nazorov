@@ -243,7 +243,7 @@ input[type=range]:focus::-ms-fill-upper {
   background: #B6B6B6;
 }
 
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 640px) {
 	.container {
 		width: 100%;
 	}
@@ -254,13 +254,18 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media only screen and (max-width: 480px) {
-  .bubble-content {
-	   margin-left:0;
-	   width: auto;
-	   max-width:100%;
+  	.bubble-content {
+	   	margin-left:0;
+	   	width: auto;
+	   	max-width:100%;
 	}
 	body {
 		background-image: none;
 		padding: 0 0.5em;
+	}
+}
+@media only screen and (max-width: 320) {
+  	input[type=range] {
+		max-width:100%;
 	}
 }
