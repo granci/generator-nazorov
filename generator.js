@@ -339,6 +339,7 @@ function getRole() {
           break;
       }
   }
+  console.log(role);
   return role;
 }
   
