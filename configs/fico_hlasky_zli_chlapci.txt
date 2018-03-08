@@ -1,5 +1,10 @@
 {0} len vytĺka politický kapitál, 
 {0} a {1} tancujú na hroboch dvoch mladých ľudí!
-{0} dostáva inštrukcie od Soroša!
+{0} dostáva inštrukcie od Soroša! 
 Uvedomte si, že {0} chce len destabilizovať našu úspešnú krajinu.
-Subjekty ako {0} a {1} konajú proti záujmom Slovenskej Republiky!
+Subjekty ako {0} a {1} konajú proti záujmom Slovenskej Republiky! 
+{0} nemá diktovať, ako majú vládni predstavitelia vyriešiť politickú situáciu. 
+{0} sa v zahraničí schádza s osobami pochybnej povesti a za týmto názorom si stojím! 
+Kde bol {0} v piatok o piatej? 
+Odkiaľ dostáva {0} inštrukcie?
+{0} a {1} pripravujú štátny prevrat!
