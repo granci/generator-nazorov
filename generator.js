@@ -268,10 +268,13 @@ function changeTopic() {
     topic = 1;
     document.getElementById('topic_all').checked = true;
     disable_topic = true;
+    goodGuysSentences = adjustGysSentences(parseTextFile("configs/" + keyword + "_hlasky_dobri_chlapci.txt"));
     badGuysSentences = adjustGysSentences(parseTextFile("configs/" + keyword + "_hlasky_zli_chlapci.txt"));
+    goodGuys = parseTextFile("configs/" + keyword + "_dobri_chlapci.txt");
     badGuys = parseTextFile("configs/" + keyword + "_zli_chlapci.txt");
-    swearWords = ['POLOBLÁZNI', 'DEMOKRATICKÉ VOĽBY', 'KONŠTANTA', 'OPOZÍCIA', 'SMRŤ DVOCH MLADÝCH ĽUDÍ', 'SOROŠ', 'PÁN ŠEREŠ'];
-    swearWordsLvl2 = ['ŠPINAVÉ PROTISLOVENSKÉ PROSTITÚTKY', 'VYHRAJTE VOĽBY', 'KOALIČNÁ VÄČŠINA', 'BRUTÁLNA VRAŽDA', 'PROTISLOVENSKÝ PREZIDENT'];
+    swearWords = ['POLOBLÁZNI', 'DEMOKRATICKÉ VOĽBY', 'MEDIÁLNE HYENY', 'OPOZÍCIA', 'SMRŤ DVOCH MLADÝCH ĽUDÍ', 'ŠTÁTNY PREVRAT'];
+    swearWordsLvl2 = ['ŠPINAVÉ PROTISLOVENSKÉ PROSTITÚTKY', 'VEĎ VYHRAJTE VOĽBY', 'KOALIČNÁ VÄČŠINA', 'BRUTÁLNA VRAŽDA', 
+                      'JA SOM ŠTÁT', 'HANBA PADÁ NA PREZIDENTA'];
   }
   else {
     var keyword = "slovien";
