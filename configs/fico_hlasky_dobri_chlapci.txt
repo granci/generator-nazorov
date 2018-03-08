@@ -1,3 +1,5 @@
 Chcem len povedať, že {0} má moju plnú dôveru.
 Jedine {0} je zárukou objektívneho vyšetrenia tejto úkladnej vraždy.
 {0} a {1} potrebujú predovšetkým pokoj aby sa mohli sústrediť na svoju prácu.
+{0} si určite nenechá diktovať zmanipulovaným davom z ulice.
+{0} sa na rozdiel od iných potajme neschádza s osobami pochybnej povesti!
