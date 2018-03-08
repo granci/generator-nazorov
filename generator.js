@@ -328,7 +328,7 @@ function changeTitle() {
     title = "Nahodný Admin Zomri";
   }
   else if (role == 5) {
-    title = "Nahodný Autokratický Kokot";
+    title = "Nenahodný Autokratický Kokot";
   }
   document.getElementById("title").innerHTML = title;
 }
