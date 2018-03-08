@@ -328,7 +328,7 @@ function changeTitle() {
     title = "Nahodný Admin Zomri";
   }
   else if (role == 5) {
-    title = "Nenahodný Autokrat Karpatského typu";
+    title = "Istý Karpatský Autokrat";
   }
   document.getElementById("title").innerHTML = title;
 }
