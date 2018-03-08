@@ -1,0 +1,3 @@
+Chcem len povedať, že {0} má moju plnú dôveru.
+Jedine {0} je zárukou objektívneho vyšetrenia tejto úkladnej vraždy.
+{0} a {1} potrebujú predovšetkým pokoj aby sa mohli sústrediť na svoju prácu.
