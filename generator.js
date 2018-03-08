@@ -166,6 +166,16 @@ function changeBackground() {
                   "https://lh4.googleusercontent.com/-LA3Cpva_5CA/AAAAAAAAAAI/AAAAAAAAAcA/SUGaZDMuge4/photo.jpg",
                   "https://m.smedata.sk/api-media/media/image/fici/8/13/1378668/1378668_1200x.png"];
   }
+  else if (role == 5) {  // FICO
+    var colors = ["(255,36,28)","(229,32,25)","(204,28,22)","(178,25,19)","(153,21,16)","(127,18,14)","(102,14,11)",
+                  "(76,10,8)","(51,7,5)","(25,3,2)","(0,0,0)"];
+    var images = ["https://slobodnyvyber.sk/wp-content/uploads/2017/11/fico.jpg",
+                  "http://fakt24.sk/gallery/photos/1478272404549/thumbnail_1478272404549.jpg",
+                  "https://t4.aimg.sk/magaziny/dc6BvOHBQDedksZMgvBZ8Q~Robert-Fico.jpg?t=LzgwMHg0NTAvc21hcnQ%3D&h=7CFRyZbrTTg9rCKZhbdZMA&e=2145916800&v=1",
+                  "http://www.pluska.sk/images/gallery/aktuality/domov/2010/07/fico.11.jun.t.jpg", 
+                  "https://t4.aimg.sk/magaziny/v7aXBXsgS5CdS6hvlg3SNg.1280~Robert-Fico.jpg?t=LzB4MDoxMjgweDcxOS84MDB4NDUwL3NtYXJ0&h=PwJEVQTWIlNlF4GBkCqbdQ&e=2145916800&v=3",
+                  "http://2.bp.blogspot.com/-VP5zsC7Gg94/UzhnxbK9T-I/AAAAAAAAFus/cGtPHdYsIv0/s1600/fico+po+prehre.JPG"];
+  }
   else {  // slovien
     var colors = ["(53,130,0)","(78,130,0)","(102,130,0)","(128,129,0)","(129,107,0)","(129,82,0)","(144,77,0)",
                   "(159,69,0)","(174,58,0)","(189,43,0)","(204,26,0)"];
@@ -253,6 +263,16 @@ function changeTopic() {
     swearWordsLvl2 = ['VŠETCI ZOMRITE', 'HMOŽDINY NA SATURN', 'ŽALOBA NA TO', 'KOKÓÓÓTI', 'TRAGICKÍ KOKOTI', 
                      'PIIIČAA', 'ZAJEBEM PLYN'];
   }
+  else if (role == 5) {
+    var keyword = "fico";
+    topic = 1;
+    document.getElementById('topic_all').checked = true;
+    disable_topic = true;
+    //badGuysSentences = adjustGysSentences(parseTextFile("configs/" + keyword + "_hlasky_zli_chlapci.txt"));
+    //badGuys = parseTextFile("configs/" + keyword + "_zli_chlapci.txt");
+    swearWords = ['POLOBLÁZNI', 'DEMOKRATICKÉ VOĽBY', 'KONŠTANTA', 'OPOZÍCIA', 'SMRŤ DVOCH MLADÝCH ĽUDÍ', 'SOROŠ', 'PÁN ŠEREŠ'];
+    swearWordsLvl2 = ['ŠPINAVÉ PROTISLOVENSKÉ PROSTITÚTKY', 'VYHRAJTE VOĽBY', 'KOALIČNÁ VÄČŠINA', 'BRUTÁLNA VRAŽDA', 'PROTISLOVENSKÝ PREZIDENT'];
+  }
   else {
     var keyword = "slovien";
     goodGuysSentences = adjustGysSentences(parseTextFile("configs/" + keyword + "_hlasky_dobri_chlapci.txt"));
@@ -303,6 +323,9 @@ function changeTitle() {
   }
   else if (role == 4) {
     title = "Nahodný Admin Zomri";
+  }
+  else if (role == 5) {
+    title = "Nahodný Autokratický Kokot";
   }
   document.getElementById("title").innerHTML = title;
 }
