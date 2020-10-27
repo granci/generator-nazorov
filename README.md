@@ -1,4 +1,4 @@
-https://slusny-slovien.herokuapp.com/
+deployment: http://generator.granci.com/
 
 namet a predloha: https://github.com/Jiri-Kremser/nahodny-slusny-cech
 

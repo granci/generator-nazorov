@@ -139,52 +139,52 @@ function changeBackground() {
   if (role == 2) {  // slniecko
     var colors = ["(219,202,21)","(221,174,29)","(223,147,37)","(225,119,45)","(227,92,53)","(230,65,62)","(229,66,94)",
                   "(228,67,126)","(228,68,159)","(227,69,191)","(227,71,224)"];
-    var images = ["https://t4.aimg.sk/magaziny/KspY7PSmQ-nkLx9q5qF73g~Pohoda-2012-ilustrak42-brichta.jpg?t=LzgwMHg0NTAvc21hcnQ%3D&h=N4jAWXJMRX9h6iyYlb9cBg&e=2145916800&v=2", 
-                  "https://ipravda.sk/res/2016/08/23/thumbs/organizatori-gorila-krempaska-weisenbacher-clanokW.jpg", 
-                  "https://cdn.webnoviny.sk/sites/32/2012/10/pochod-spolocne-za-slusny-a-bezpecn.jpg",
-                  "https://ipravda.sk/res/2010/05/23/thumbs/73476-gay-pride-bratislava-clanokW.jpg", 
-                  "http://panobcan.sk/wp-content/uploads/2015/07/robert-mihaly-provokater.jpg",
-                  "http://www.heberger-image.fr/data/images/37086_etoile_explosion_cosmos_planete_redimensionne.jpeg"];
+    var images = ["img/slniecko1.jpg", 
+                  "img/slniecko2.jpg", 
+                  "img/slniecko3.jpg", 
+                  "img/slniecko4.jpg",
+                  "img/slniecko5.jpg",
+                  "img/slniecko6.jpg"];
   }
   else if (role == 3) {  // vasky
     var colors = ["(255,36,28)","(229,32,25)","(204,28,22)","(178,25,19)","(153,21,16)","(127,18,14)","(102,14,11)",
                   "(76,10,8)","(51,7,5)","(25,3,2)","(0,0,0)"];
-    var images = ["https://i.ytimg.com/vi/fxqs4ZnQA6M/maxresdefault.jpg", 
-                  "http://www.upnito.sk/0/jd2kn7gf6gyeqzrj4a5yfzyyjmxnsdwv.jpg",
-                  "https://i.ytimg.com/vi/3xKcvCfRaOw/hqdefault.jpg",
-                  "https://imageth.uloz.to/1/4/c/14ce436dee30c05b9fcc7d8483097d31.640x360.jpg", 
-                  "http://img.topky.sk/900px/1799003.jpg/incident-facka-Peter-Osusky-Rudolf-Vasky.jpg",
-                  "https://storage.pozary.cz/article/5/8/58cd267e1f199/t2q4qlmxad.1200.jpg"];
+    var images = ["img/vasky1.jpg", 
+                  "img/vasky2.jpg", 
+                  "img/vasky3.jpg", 
+                  "img/vasky4.jpg",
+                  "img/vasky5.jpg",
+                  "img/vasky6.jpg"];
   }
   else if (role == 4) {  // zomri
     var colors = ["(59,89,152)","(75,81,139)","(91,74,126)","(108,66,114)","(124,59,101)","(140,51,88)","(157,44,76)",
                   "(173,37,63)","(189,29,50)","(206,22,38)","(222,14,25)"];
-    var images = ["http://www1.birdz.sk/uc/pl/7/1/718dd9f92db5462d92eb98e67c4e882c.jpg",
-                  "https://i.ytimg.com/vi/JgSCjceExVI/hqdefault.jpg",
-                  "https://m.smedata.sk/api-media/media/image/fici/3/29/29473/29473_625x.png",
-                  "http://zenskyweb.sk/sites/default/files/old/articles/16299/original.jpg", 
-                  "https://lh4.googleusercontent.com/-LA3Cpva_5CA/AAAAAAAAAAI/AAAAAAAAAcA/SUGaZDMuge4/photo.jpg",
-                  "https://m.smedata.sk/api-media/media/image/fici/8/13/1378668/1378668_1200x.png"];
+    var images = ["img/zomri1.jpg", 
+                  "img/zomri2.jpg", 
+                  "img/zomri3.png", 
+                  "img/zomri4.jpg",
+                  "img/zomri5.jpg",
+                  "img/zomri6.png"];
   }
   else if (role == 5) {  // FICO
     var colors = ["(255,36,28)","(229,32,25)","(204,28,22)","(178,25,19)","(153,21,16)","(127,18,14)","(102,14,11)",
                   "(76,10,8)","(51,7,5)","(25,3,2)","(0,0,0)"];
-    var images = ["https://slobodnyvyber.sk/wp-content/uploads/2017/11/fico.jpg",
-                  "http://fakt24.sk/gallery/photos/1478272404549/thumbnail_1478272404549.jpg",
-                  "https://t4.aimg.sk/magaziny/dc6BvOHBQDedksZMgvBZ8Q~Robert-Fico.jpg?t=LzgwMHg0NTAvc21hcnQ%3D&h=7CFRyZbrTTg9rCKZhbdZMA&e=2145916800&v=1",
-                  "http://www.pluska.sk/images/gallery/aktuality/domov/2010/07/fico.11.jun.t.jpg", 
-                  "https://t4.aimg.sk/magaziny/v7aXBXsgS5CdS6hvlg3SNg.1280~Robert-Fico.jpg?t=LzB4MDoxMjgweDcxOS84MDB4NDUwL3NtYXJ0&h=PwJEVQTWIlNlF4GBkCqbdQ&e=2145916800&v=3",
-                  "http://2.bp.blogspot.com/-VP5zsC7Gg94/UzhnxbK9T-I/AAAAAAAAFus/cGtPHdYsIv0/s1600/fico+po+prehre.JPG"];
+    var images = ["img/fico1.jpg", 
+                  "img/fico2.jpg", 
+                  "img/fico3.jpg", 
+                  "img/fico4.jpg",
+                  "img/fico5.jpg",
+                  "img/fico6.jpg"];
   }
   else {  // slovien
     var colors = ["(53,130,0)","(78,130,0)","(102,130,0)","(128,129,0)","(129,107,0)","(129,82,0)","(144,77,0)",
                   "(159,69,0)","(174,58,0)","(189,43,0)","(204,26,0)"];
-    var images = ["https://cdn.pbrd.co/images/aFqRkATQ6.jpg", 
-                  "http://fakt24.sk/gallery/photos/14668911561997/thumbnail_14668911561997.jpg", 
-                  "https://a-static.projektn.sk/2017/05/skautka.jpeg", 
-                  "http://img.topky.sk/big/1736737.jpg",
-                  "http://i.sme.sk/cdata/2/49/4906652/kotleba.jpg",
-                  "https://i.ytimg.com/vi/gJe7fY-yowk/maxresdefault.jpg"];
+    var images = ["img/nacek1.jpeg", 
+                  "img/nacek2.png", 
+                  "img/nacek3.jpeg", 
+                  "img/nacek4.jpg",
+                  "img/nacek5.jpg",
+                  "img/nacek6.jpg"];
   }
   
   // modify background color
